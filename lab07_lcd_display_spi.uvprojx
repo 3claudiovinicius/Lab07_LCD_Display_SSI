@@ -434,16 +434,6 @@
               <FileType>5</FileType>
               <FilePath>..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_font.h</FilePath>
             </File>
-            <File>
-              <FileName>stm32_to_tiva_SPI.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\stm32_to_tiva_SPI.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32_to_tiva_SPI.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\stm32_to_tiva_SPI.h</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>

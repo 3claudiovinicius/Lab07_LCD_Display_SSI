@@ -35,7 +35,6 @@
 #include <math.h>
 #include <stdint.h>
 #include "driverlib/sysctl.h"
-#include "stm32_to_tiva_SPI.h"
 
 #include "st7789_conf.h"
 
