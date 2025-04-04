@@ -1,6 +1,6 @@
 Dependencies for Project 'lab07_lcd_display_spi', Target 'Target_1': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\main.c)(0x67BC86FF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/main.o -MMD)
+F (.\main.c)(0x67F033AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/main.o -MMD)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_gpio.h)(0x67A24CEC)
@@ -11,34 +11,36 @@ I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\uart.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h)(0x67ACA2A0)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c1294ncpdt.h)(0x67A24CED)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67BB662D)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67EEE3EB)
 I (..\Lab07_LCD_Display_SSI\stm32_to_tiva_SPI.h)(0x67BB65ED)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67B63A60)
-F (.\readme.txt)(0x67BF33F4)()
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67F03414)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_font.h)(0x67B3967C)
+F (.\readme.txt)(0x67EFDA85)()
 F (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\rvmdk\driverlib.lib)(0x67A24CDB)()
-F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.c)(0x67BB63AF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/st7789.o -MMD)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67BB662D)
+F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.c)(0x67F033E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/st7789.o -MMD)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67EEE3EB)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x67BB66F5)
 I (..\Lab07_LCD_Display_SSI\stm32_to_tiva_SPI.h)(0x67BB65ED)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ssi.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h)(0x67A24CDA)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67B63A60)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67F03414)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h)(0x67ACA2A0)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c1294ncpdt.h)(0x67A24CED)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_gpio.h)(0x67A24CEC)
-F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67BB662D)()
-F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67B63A60)()
+I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\uart.h)(0x67A24CDA)
+F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67EEE3EB)()
+F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67F03414)()
 F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_font.c)(0x67B3967C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/st7789_font.o -MMD)
 I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_font.h)(0x67B3967C)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67BB662D)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67EEE3EB)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x67BB66F5)
 I (..\Lab07_LCD_Display_SSI\stm32_to_tiva_SPI.h)(0x67BB65ED)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ssi.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h)(0x67A24CDA)
-I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67B63A60)
+I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_conf.h)(0x67F03414)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h)(0x67ACA2A0)
@@ -46,7 +48,7 @@ I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h)(0x67A24CDA)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c1294ncpdt.h)(0x67A24CED)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_gpio.h)(0x67A24CEC)
 F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789_font.h)(0x67B3967C)()
-F (.\stm32_to_tiva_SPI.c)(0x67BC9345)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/stm32_to_tiva_spi.o -MMD)
+F (.\stm32_to_tiva_SPI.c)(0x67EC1C74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/stm32_to_tiva_spi.o -MMD)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x67BB66F5)
 I (stm32_to_tiva_SPI.h)(0x67BB65ED)

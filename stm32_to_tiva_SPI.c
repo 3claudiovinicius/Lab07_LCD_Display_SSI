@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stdio.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
 #include "driverlib/sysctl.h"
@@ -50,9 +51,9 @@ int SPI_TransmitReceive_Tiva(uint8_t *pTxData, uint8_t *pRxData, uint16_t size, 
 }
 
 void HAL_GPIO_WritePin(uint32_t GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState) {
-    if (PinState == GPIO_PIN_SET) {
-        // Define o pino como HIGH
-        GPIOPinWrite(GPIOx, GPIO_Pin, GPIO_Pin);
+    if (PinState == GPIO_HIGH_LEVEL) {
+        uint32_t mask = (1<<GPIO_Pin);
+			  GPIOx |= mask;
     } else {
         // Define o pino como LOW
         GPIOPinWrite(GPIOx, GPIO_Pin, 0x00);
