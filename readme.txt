@@ -18,3 +18,25 @@ Backlight
 If = 80mA
 Vf = 2.7~3.4V
 VCC = 3.3V
+
+Memory Map File
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      9016        226       2024       1644        520      46601   Grand Totals
+      9016        226       2024         24        520      46601   ELF Image Totals (compressed)
+      9016        226       2024         24          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                11040 (  10.78kB)
+    Total RW  Size (RW Data + ZI Data)              2164 (   2.11kB)
+    Total ROM Size (Code + RO Data + RW Data)      11064 (  10.80kB)
+
+==============================================================================
+
+Imporvments
+
+- Number variables: Controle type (8,16,32, signed, unsigned) and control memory location storage (constant,static), volatile, 
