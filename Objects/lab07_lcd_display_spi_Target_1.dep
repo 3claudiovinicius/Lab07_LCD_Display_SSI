@@ -1,6 +1,6 @@
 Dependencies for Project 'lab07_lcd_display_spi', Target 'Target_1': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\main.c)(0x67F039F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/main.o -MMD)
+F (.\main.c)(0x67F03AFB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/main.o -MMD)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h)(0x67A24CEC)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_gpio.h)(0x67A24CEC)
@@ -14,7 +14,7 @@ I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c1294ncpdt.h)(0x67A24CED)
 I (st7789.h)(0x67F03970)
 I (st7789_conf.h)(0x67F03414)
 I (st7789_font.h)(0x67B3967C)
-F (.\readme.txt)(0x67EFDA85)()
+F (.\readme.txt)(0x67F96D9B)()
 F (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\rvmdk\driverlib.lib)(0x67A24CDB)()
 F (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.c)(0x67F033E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I C:/ti/TivaWare_C_Series-2.2.0.295 -I ../libraries_to_edit/ST7789-main/ST7789-main/Src -I ../Lab07_LCD_Display_SSI-I./RTE/_Target_1-IC:/Users/soarec16/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/soarec16/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C129-D__UVISION_VERSION="541" -DTM4C1294NCPDT -D_RTE_ -DPART_TM4C1294NCPDT-o ./objects/st7789.o -MMD)
 I (..\libraries_to_edit\ST7789-main\ST7789-main\Src\st7789.h)(0x67F039C5)
